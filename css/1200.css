@@ -1,0 +1,15 @@
+@media (min-width:1200px) {
+    .application {
+        /* min-width: 1190px */
+        max-width: 1100px;
+        /* border: solid 1px #73c990; */
+    }
+
+    .vala-title-short {
+        display: none;
+    }
+
+    .vala-title-long {
+        display: block;
+    }
+}

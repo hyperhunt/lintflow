@@ -1,0 +1,36 @@
+@media only screen and (max-width:480px) {
+    .application {
+        min-width: 310px;
+        width: 95%;
+    }
+
+    .stack-top {
+        /* border: solid 1px #665888; */
+        width: 100px;
+
+    }
+    .sidebar-menu  {
+        /* border: #c97373 2px solid; */
+    }
+
+    .vala-title-short {
+        display: block;
+    }
+
+    /* #expand-toggle:checked ~ *.vala-title-long {
+    display: block;
+  } */
+    .vala-title-long {
+        display: none;
+    }
+
+    .page {
+        display: none;
+    }
+}
+
+/*
+@media (max-width:480px) and (orientation: landscape) {
+
+
+}*/

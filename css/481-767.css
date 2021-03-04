@@ -1,0 +1,21 @@
+@media (min-width:481px) and (max-width:767px) {
+    .application {
+        min-width: 471px;
+        width: 95%;
+        /* border: solid 1px #e06c75; */
+    }
+    .stack {
+        /* width: 100%; */
+    }
+
+    .vala-title-short {
+        display: block;
+    }
+
+    /* #expand-toggle:checked ~ *.vala-title-long {
+    display: block;
+  } */
+    .vala-title-long {
+        display: none;
+    }
+}
