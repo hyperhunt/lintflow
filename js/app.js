@@ -101,6 +101,13 @@ for (let i = 0; i < btn.length; i++) {
             stateApplication.style.width = "358px"
             console.log(stateApplication.clientWidth.valueOf())
 
+            var stack = document.querySelector('.stack')
+            // console.log(stack);
+            stack.style.width = "30%"
+            
+            var sidebar = document.querySelector('.sidebar')
+            console.log(sidebar.clientWidth);
+            sidebar.style.minWidth = "265px"  
         }
 
         if (this.innerHTML == "1100") {
@@ -115,5 +122,14 @@ for (let i = 0; i < btn.length; i++) {
 
 console.log(btn)
 
+console.log("===>");
+
+window.onload = function() {
+    var stack = document.querySelector('.stack')
+    stack.style.width = "30%"
+    var sidebar = document.querySelector('.sidebar')
+    console.log(sidebar.clientWidth);
+    sidebar.style.minWidth = "265px"    
+}
 
 

@@ -13,20 +13,23 @@
         /* border: #c97373 2px solid; */
     }
 
-    .vala-title-short {
+    .sidebar {
+        border-top: 1px solid #E05561;
+        min-width: 72%;
+    }
+
+    .lintflow-title-short {
         display: block;
     }
 
-    /* #expand-toggle:checked ~ *.vala-title-long {
+    /* #expand-toggle:checked ~ *.lintflow-title-long {
     display: block;
   } */
-    .vala-title-long {
+    .lintflow-title-long {
         display: none;
     }
 
-    .page {
-        display: none;
-    }
+
 }
 
 /*

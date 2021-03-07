@@ -8,14 +8,16 @@
         /* width: 100%; */
     }
 
-    .vala-title-short {
+
+
+    .lintflow-title-short {
         display: block;
     }
 
-    /* #expand-toggle:checked ~ *.vala-title-long {
+    /* #expand-toggle:checked ~ *.lintflow-title-long {
     display: block;
   } */
-    .vala-title-long {
+    .lintflow-title-long {
         display: none;
     }
 }

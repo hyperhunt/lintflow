@@ -5,11 +5,11 @@
         /* border: solid 1px #73c990; */
     }
 
-    .vala-title-short {
+    .lintflow-title-short {
         display: none;
     }
 
-    .vala-title-long {
+    .lintflow-title-long {
         display: block;
     }
 }
