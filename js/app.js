@@ -107,7 +107,7 @@ for (let i = 0; i < btn.length; i++) {
             
             var sidebar = document.querySelector('.sidebar')
             console.log(sidebar.clientWidth);
-            sidebar.style.minWidth = "265px"  
+            sidebar.style.minWidth = "257px"      
         }
 
         if (this.innerHTML == "1100") {
@@ -129,7 +129,7 @@ window.onload = function() {
     stack.style.width = "30%"
     var sidebar = document.querySelector('.sidebar')
     console.log(sidebar.clientWidth);
-    sidebar.style.minWidth = "265px"    
+    sidebar.style.minWidth = "257px"    
 }
 
 

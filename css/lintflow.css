@@ -447,6 +447,8 @@ body {
 .stack {
   /* border: solid 1px #885858; */
   margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
   /* min-width: 110px; */
   /* width: 230px; */
   width: 20%;
@@ -480,6 +482,8 @@ body {
 
 .stackicon {
   margin: 8px auto;
+  padding-left: 5px;
+  padding-right: 5px;
   /* width: 48px; */
   /* height: 48px; */
   display: flex;
@@ -510,6 +514,8 @@ body {
 .stackiconhover {
   margin: 15px 8px;
   padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-bottom: 5px;
   /* width: 48px; */
   /* height: 32px; */
@@ -592,6 +598,8 @@ body {
   /* Заполняет ширину, увеличивая контейнер */
   flex-grow: 1;
   background-color: #2d2d2d;
+  margin-bottom: 20px;
+
 }
 
 .page-content {
@@ -625,6 +633,68 @@ body {
   background-color: #313131;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
 }
+
+/* *********** PAGE END *********** */
+
+
+/* *********** BREADCRUMB *********** */
+
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+a {
+  color: #989898;
+  border-inline: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* *********** BREADCRUMB END *********** */
+
+
+/* *********** WIDGETS *********** */
+
+.widgets, p {
+  /* border: #73c990 1px solid; */
+  /* float: left; */
+  /* box-sizing: border-box; */
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 10px 10px;
+  /* background-color: #665888; */
+  overflow-y: auto;
+  scrollbar-color: #525251 #313131 !important;
+  scrollbar-width: thin !important;
+}
+
+.widget-tile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: rgba(192, 192, 192, 0.1) 1px solid;
+  border-radius: 4px;
+}
+
+.widget-tilep {
+  font-size:2rem;
+}
+
+h1.widget {
+  font-size: 16px !important; 
+  padding: 10px 10px;
+}
+
+/* *********** WIDGETS END *********** */
 
 /* *********** FOOTER *********** */
 
